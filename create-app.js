@@ -6,7 +6,8 @@ const app = express()
 app.get('/', (req, res) => {
   res.json({
     repoName: 'continuous-delivery',
-    repoDes: 'A practice repository for testing and deployment.'
+    repoDes: 'A practice repository for testing and deployment.',
+    repoLink: 'https://github.com/occs/eleven'
   })
 })
 
