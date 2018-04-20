@@ -1,0 +1,25 @@
+{
+  "name": "data-gateway-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/",
+    "cover": "nyc --reporter=lcov npm test",
+    "server": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "nyc": "^11.6.0",
+    "request": "^2.85.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.7",
+    "uuid": "^3.2.1"
+  }
+}
